@@ -1,17 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="2">
 
   <testsuite name="RemoveItemFromCart"
-    errors="0" failures="1" hostname="" id="" package="RemoveItemFromCart" skipped="0"
-    tests="1" time="9.106" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="RemoveItemFromCart" skipped="0"
+    tests="2" time="11.03" timestamp="">
   
-    <testcase name="удаление товара из корзины и изменение стоимости" classname="RemoveItemFromCart" time="9.106" assertions="3">
+    <testcase name="удаление товара из корзины и изменение стоимости" classname="RemoveItemFromCart" time="5.222" assertions="4">
 
     
 
-      <failure message="Testing if element &lt;#app &gt; div &gt; div.section.gutter-md &gt; div &gt; div.content-inner &gt; div:nth-child(2) &gt; div.cart-item__name &gt; div.cart-item__name-left &gt; div.text.text_size-info.gutter-8_top&gt; contains text &#39;99921305 &#39; in 5000ms - expected &#34;contains text &#39;99921305 &#39;&#34; but got: &#34;does not contain &#39;99921305 &#39;&#34; (5557ms)">    at Object.удаление товара из корзины и изменение стоимости (/home/lagarit/Рабочий стол/autotests/tests/RemoveItemFromCart.js:40:21)</failure>
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Полная очистка корзины" classname="RemoveItemFromCart" time="5.810" assertions="4">
+
+    
+
+    
+
+    
 
     
     </testcase>
